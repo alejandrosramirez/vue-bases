@@ -12,22 +12,7 @@
 </head>
 
 <body>
-	<div id="root">
-		<h1>Batman quotes</h1>
-
-		<input type="text" />
-
-		<hr>
-
-		<ul>
-			<li v-for="({ quote, author }, index) in quotes" :key="index">
-			 	<span>
-					{{ index + 1 }} - {{ quote }}
-				</span>
-				<blockquote>- {{ author }}</blockquote>
-			</li>
-		</ul>
-	</div>
+	<div id="root"></div>
 
 	<script src="app.js"></script>
 </body>
